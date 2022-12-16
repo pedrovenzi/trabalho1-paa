@@ -94,7 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "mergesort.cpp",
+			"path" : "insertionsort.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

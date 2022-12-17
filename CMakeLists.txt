@@ -3,4 +3,4 @@ project(trabalho1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(trabalho1 insertionsort.cpp)
+add_executable(trabalho1 bsearch.cpp)

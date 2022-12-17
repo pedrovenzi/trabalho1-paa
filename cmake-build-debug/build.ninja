@@ -49,9 +49,9 @@ cmake_ninja_workdir = /home/pedrovenzi/Documentos/paa/trabalho1/cmake-build-debu
 
 build cmake_object_order_depends_target_trabalho1: phony || CMakeFiles/trabalho1.dir
 
-build CMakeFiles/trabalho1.dir/bsearch.cpp.o: CXX_COMPILER__trabalho1_Debug /home/pedrovenzi/Documentos/paa/trabalho1/bsearch.cpp || cmake_object_order_depends_target_trabalho1
-  DEP_FILE = CMakeFiles/trabalho1.dir/bsearch.cpp.o.d
-  FLAGS = -g -std=gnu++14
+build CMakeFiles/trabalho1.dir/bsearch.c.o: C_COMPILER__trabalho1_Debug /home/pedrovenzi/Documentos/paa/trabalho1/bsearch.c || cmake_object_order_depends_target_trabalho1
+  DEP_FILE = CMakeFiles/trabalho1.dir/bsearch.c.o.d
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles/trabalho1.dir
   OBJECT_FILE_DIR = CMakeFiles/trabalho1.dir
 
@@ -63,7 +63,7 @@ build CMakeFiles/trabalho1.dir/bsearch.cpp.o: CXX_COMPILER__trabalho1_Debug /hom
 #############################################
 # Link the executable trabalho1
 
-build trabalho1: CXX_EXECUTABLE_LINKER__trabalho1_Debug CMakeFiles/trabalho1.dir/bsearch.cpp.o
+build trabalho1: C_EXECUTABLE_LINKER__trabalho1_Debug CMakeFiles/trabalho1.dir/bsearch.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/trabalho1.dir
   POST_BUILD = :
